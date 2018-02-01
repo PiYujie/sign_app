@@ -1,18 +1,18 @@
 <template>
 	<div class="footer">
-		<a href="#/index/home" >
+		<a href="#/index/home" :class="{'footer-check':num == 1}" @click="checked(1)">
 			<img src="/img/font/shouye.png"/>
 			<span>首页</span>
 		</a>
-		<a href="#/index/activity">
+		<a href="#/index/activity" :class="{'footer-check':num == 2}" @click="checked(2)">
 			<img src="/img/font/activity1.png"/>
 			<span>活动</span>
 		</a>
-		<a href="#/index/signin">
+		<a href="#/index/signin" :class="{'footer-check':num == 3}" @click="checked(3)">
 			<img src="/img/font/signin1.png"/>
 			<span>报名</span>
 		</a>
-		<a href="#/index/mine" class="footer-check">
+		<a href="#/index/mine" :class="{'footer-check':num == 4}" @click="checked(4)">
 			<img src="/img/font/mine.png"/>
 			<span>我的</span>
 		</a>
@@ -21,6 +21,16 @@
 
 <script>
 	export default{
+		data(){
+			return {
+				num:1
+			}
+		},
+		methods:{
+			checked(num){
+				this.num = num
+			}
+		}
 	}
 </script>
 
@@ -47,5 +57,9 @@
 	}
 	.footer a img{
 		width: 2.5rem;height: 2.5rem;
+	}
+	/*选中样式更改*/
+	.footer .footer-check{
+		background-color: red;
 	}
 </style>

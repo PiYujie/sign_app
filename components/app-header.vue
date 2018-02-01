@@ -68,7 +68,7 @@
 		display:flex;
 		padding:0 1.2rem;
 		height: 3.4rem;
-		background-color: #EFEFF4;
+		background-color: #F64141;
 		align-items: center;
 		justify-content: center;
 	}
@@ -123,7 +123,7 @@
 	.header .search-check em{
 		font-style: normal;
 		display: flex;
-		color: #F64141;
+		color: #fff;
 		font-size: 1.4rem;
 	}
 	.header .search-check p span{
