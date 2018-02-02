@@ -2,7 +2,7 @@
 	<div class="setting">
 		<xheader2>设置</xheader2>
 		<div class="cont">
-			<a href="#">账号与安全</a>
+			<a href="#/safe">账号与安全</a>
 			<a href="##">隐私</a>
 			<a href="##">关于我们</a>
 			<a href="#">帮助与反馈</a>
@@ -28,6 +28,7 @@
 	.setting{
 		width: 100%;
 		display: flex;
+		padding-top: 4.6rem;
 		flex-direction: column;
 	}
 	/*内容*/

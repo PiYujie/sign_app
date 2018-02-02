@@ -1,19 +1,19 @@
 <template>
 	<div class="footer">
 		<a href="#/index/home" :class="{'footer-check':num == 1}" @click="checked(1)">
-			<img src="/img/font/shouye.png"/>
+			<img src="/img/font/shouye.svg"/>
 			<span>首页</span>
 		</a>
 		<a href="#/index/activity" :class="{'footer-check':num == 2}" @click="checked(2)">
-			<img src="/img/font/activity1.png"/>
+			<img src="/img/font/activity.svg"/>
 			<span>活动</span>
 		</a>
 		<a href="#/index/signin" :class="{'footer-check':num == 3}" @click="checked(3)">
-			<img src="/img/font/signin1.png"/>
+			<img src="/img/font/signin1.svg"/>
 			<span>报名</span>
 		</a>
 		<a href="#/index/mine" :class="{'footer-check':num == 4}" @click="checked(4)">
-			<img src="/img/font/mine.png"/>
+			<img src="/img/font/mine.svg"/>
 			<span>我的</span>
 		</a>
 	</div>
@@ -56,7 +56,7 @@
 		font-size: 1.5rem;
 	}
 	.footer a img{
-		width: 2.5rem;height: 2.5rem;
+		width: 2rem;height: 2rem;
 	}
 	/*选中样式更改*/
 	.footer .footer-check{

@@ -1,7 +1,7 @@
 <template>
 	<div class="detail">
 		<header>
-			<a href="#/index/activity"><img src="/img/font/return1.png"/></a>
+			<a href="#/index/activity"><img src="/img/font/return1.svg"/></a>
 			<span>重庆科技学院</span>
 			<i></i>
 		</header>
@@ -67,7 +67,7 @@
 		display: flex;
 		padding-left: 1.2rem;
 	}
-	header i img{
+	header a img{
 		width: 2rem;height: 2rem;
 	}
 	/*标题栏样式*/

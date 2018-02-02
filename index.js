@@ -20,6 +20,8 @@ import setting from "./components/contain/app-setting.vue";
 import own from "./components/contain/app-own.vue";
 import upmess from "./components/contain/app-up-mess.vue";
 import inmess from "./components/contain/app-in-mess.vue";
+import register from "./components/contain/app-register.vue";
+import safe from "./components/contain/app-safe.vue";
 //公共组件
 import footer from "./components/app-footer.vue";
 import header from "./components/app-header.vue";
@@ -86,10 +88,19 @@ var router = new VueRouter({
 			path: '/setting',
 			component: setting
 		},
+		{
+			path: '/safe',
+			component: safe
+		},
 		//详情
 		{
 			path: '/detail',
 			component: detail
+		},
+		//注册
+		{
+			path: '/register',
+			component: register
 		}
 	]
 })

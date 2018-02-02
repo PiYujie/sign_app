@@ -73,7 +73,7 @@
 <style scoped="scoped">
 	.cont{
 		display: flex;
-		padding: 1rem 2rem;
+		padding: 5.6rem 2rem 1rem;
 		flex-direction: column;
 	}
 	.cont h4{

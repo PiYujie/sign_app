@@ -1,16 +1,16 @@
 <template>
 	<div class="header">
 		<header>
-			<i @click="searchShow" ><img src="/img/font/search.png"/></i>
+			<i @click="searchShow" ><img src="/img/font/search.svg"/></i>
 			<span>重庆科技学院</span>
-			<i><img src="/img/font/saoyisao.png"/></i>
+			<i><img src="/img/font/saoyisao.svg"/></i>
 		</header>
 		<div class="search" v-show="isShow" id="searchBar">
 			<p>
-				<img class="none" src="/img/font/sousuo.png"/>
+				<img class="none" src="/img/font/sousuo.svg"/>
 				<input type="text" id="input" />
-				<img class="none" @click="clear" src="/img/font/no.png"/>
-				<span @click="toShow"><img src="/img/font/sousuo.png"/><b>搜索</b></span>
+				<img class="none" @click="clear" src="/img/font/no.svg"/>
+				<span @click="toShow"><img src="/img/font/sousuo.svg"/><b>搜索</b></span>
 				
 			</p>
 			<em @click="notShow">取消</em>

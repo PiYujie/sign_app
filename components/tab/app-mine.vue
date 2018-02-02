@@ -10,11 +10,11 @@
 			<span>电气与信息工程学院</span>
 			<span>计算机科学与技术</span>
 		</p>
-		<a href="#/own"><img src="/img/font/star.png"/><span>个人信息</span></a>
-		<a href="#/inmess"><img src="/img/font/signin2.png"/><span>报名查询</span></a>
-		<a href="#/upmess"><img src="/img/font/change.png"/><span>签到查询</span></a>
-		<a href="#/setting" class="bottom"><img src="/img/font/shezhi.png"/><span>设置</span></a>
-		<a href="##" class="bottom"><img src="/img/font/exit.png"/><span>退出</span></a>
+		<a href="#/own"><img src="/img/font/star.svg"/><span>个人信息</span></a>
+		<a href="#/inmess"><img src="/img/font/siginin2.svg"/><span>报名查询</span></a>
+		<a href="#/upmess"><img src="/img/font/change.svg"/><span>签到查询</span></a>
+		<a href="#/setting" class="bottom"><img src="/img/font/shezhi.svg"/><span>设置</span></a>
+		<a href="#/login" class="bottom"><img src="/img/font/exit.svg"/><span>退出</span></a>
 	</div>
 </template>
 
